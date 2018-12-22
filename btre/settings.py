@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'pages',
     'listings',
-    'realtors'
+    'realtors',
+    'django.contrib.humanize'
 ]
 
 MIDDLEWARE = [
@@ -132,5 +133,5 @@ STATICFILES_DIRS = [
 ]
 
 # Media Folder Settings
-STATIC_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
